@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  section {
+    @apply max-w-screen-xl mx-auto px-4 py-8 my-8 lg:py-12 lg:my-12;
+  }
+
+  .featuredImg {
+    background-image: url('./assets/home/featured.jpg');
+    background-attachment: fixed;
+  }
+}
